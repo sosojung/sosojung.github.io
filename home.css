@@ -1,0 +1,243 @@
+#facebook {
+    width: 1035px;
+    height: 897.32px;
+}
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+}
+body {
+    background: url(images/bg0.jpg) no-repeat fixed;  /* 기본 배경 이미지 지정 */
+    background-size: cover;
+  }
+  @media screen and (max-width:1024px) {
+    body {
+      background: url(images/bg1.jpg) no-repeat fixed;  /* 가로가 1024px 이하면 bg1.jpg 지정 */
+      background-size: cover;
+    }
+  }
+ @media screen  and (max-width:768px) {
+    body {
+      background: url(images/bg2.jpg) no-repeat fixed;  /* 가로가 768px 이하면 bg2.jpg 지정 */
+      background-size:cover ;
+    }
+  }
+  @media screen and (max-width:320px) {
+    body {
+      background: url(images/bg3.jpg) no-repeat fixed;  /* 가로가 320px 이하면 bg3.jpg 지정 */
+      background-size:cover;
+    }
+  }
+#container {
+    width: 100%;
+    height: 100%;
+    padding: 72px 0px 112px;
+    background-color: #F0F2F5;
+}
+#content {
+    width: 955px;
+    height: 536px;
+    margin: 0px 40px;
+    padding: 20px 0px;
+}
+
+
+/* 왼쪽 부분 */
+.left {
+    width: 400px;
+    height: 257.58px;
+    padding: 0px 32px 0px 0px;
+}
+
+#logo_text {
+    width: 368px;
+    height: 53.58px;
+    padding: 112px 0px 16px;
+}
+
+img {
+    width: 320.94px;
+    height: 106px;
+    margin: -28px;
+}
+
+#main_text {
+    color: #1C1E21;
+    width: 368px;
+    height: 56px;
+    padding: 0px 0px 20px;
+}
+
+/* 오른쪽 부분 */
+.right {
+    width: 396px;
+    height: 496px;
+    float: right;
+}
+
+#login_box {
+    width: 396px;
+    height: 315.34px;
+    margin: 40px 0px 0px;
+    padding: 10px 0px 24px;
+    background-color: #FFF;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 10px 20px -3px #C9CBCD;
+}
+
+.login_form {
+    width: 396px;
+    height: 315.36;
+}
+
+#input_box {
+    width: 396px;
+    height: 141.58;
+    display: flex;
+    justify-content: center;
+}
+
+#input_box2 {
+    width: 363.98px;
+    height: 131.58;
+}
+
+.input {
+    width: 363.98px;
+    height: 52.97px;
+    padding: 6px 0px;
+}
+
+.input > input::placeholder {
+    color: #90949C;
+    font-size: 17px;
+}
+
+input {
+    background-color: #FFFFFF;
+    width: 330.97px;
+    height: 22.97px;
+    padding: 14px 16px;
+    border-radius: 7px;
+    border: solid 1.25px #DDDFE2;
+    font-size: 17px;
+    caret-color: #0766FF;
+    box-shadow: inset 0px 1px 0px 0.5px #F5F5F5;
+}
+
+.input :focus {
+    border-color: #0766FF;
+    outline: none;
+    box-shadow: 0px 0px 0px 2px #E7F3FF;
+}
+
+#submit_box {
+    width: 396px;
+    height: 48px;
+    padding: 6px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#log-in {
+    width: 364px;
+    height: 48px;
+    background-color: #0766FF;
+    border: 0px;
+    color: white;
+    padding: 0px 16px;
+    border-radius: 7px;
+    font-size: 21px;
+    font-weight: 500.2;
+    cursor : pointer;
+}
+
+#log-in:hover {
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+    transition: 1s;
+}
+
+#forget {
+    width: 396px;
+    height: 18.76px;
+    margin: 16px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    width: 132.0px;
+    height: 16.5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0866FF;
+    font-weight: 465;
+}
+
+a:hover {
+    color: #0866FF;
+    text-decoration: underline;
+}
+
+hr {
+    width: 364px;
+    height: 1px;
+    background-color: #DBDDE1;
+    border: 0;
+}
+
+#join {
+    width: 396px;
+    height: 4%8;
+    padding: 6px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#join_button {
+    width: 128.09px;
+    height: 48px;
+    background-color: #43B72A;
+    border: 0;
+    color: white;
+    padding: 0px 16px;
+    border-radius: 7px;
+    font-size: 16.5px;
+    font-weight: 500;
+    cursor : pointer;
+}
+
+
+#join_button:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.mini_text {
+    width: 396px;
+    height: 18.76px;
+    margin: 28px 0px 0px;
+    font-size: 14px;
+    color: #1C1E21;
+    display: flex;
+    justify-content: center;
+}
+
+#mk_page {
+    width: 76.55px;
+    height: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+#mk_page:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    width: 1035px;
+    height: 157.32
+}
